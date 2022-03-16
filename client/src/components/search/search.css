@@ -1,0 +1,23 @@
+.text-search{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 16px;
+    background: none;
+    padding: 10px 20px 10px 10px;
+    transition: width 0.4s ease-in-out;
+    margin: 30px 12% 20px 0;
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+.text-search:focus{
+    width: 40%;
+}
+.text-search::placeholder{
+    color: azure;
+    opacity: .5;
+}
+

@@ -1,0 +1,27 @@
+.genre-icon{
+    background: none;
+    border-radius: 5px;
+    border: 2px solid rgb(202, 199, 199);
+    color:rgb(184, 184, 184) ;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.genre{
+    margin-left: 11%;
+}
+.genre-icon-select{
+    background: none;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 2px 10px;
+    background: rgb(255, 230, 0);
+}
+.genre-icon:hover{
+    border: 2px solid yellow;
+    color:yellow ;
+}
+.genre-icon-select:focus-within{
+    border: 2px solid yellow;
+    color:yellow ;
+}

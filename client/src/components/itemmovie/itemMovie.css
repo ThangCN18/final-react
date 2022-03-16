@@ -1,0 +1,41 @@
+
+.item-movie{
+    overflow: hidden;
+    
+}
+.cart-movie{
+    position: relative;
+    
+}
+.item-movie-btn{
+    position: absolute;
+    left: 33%;
+    top: 45%;
+    display: none; 
+}
+.cart-movie:hover .item-movie-btn{
+    display: block;
+}
+.cart-movie:hover .card-movie-dd{
+    border: 2px solid yellow;
+    box-shadow:  0 3px 5px rgb(248, 248, 143);
+}
+.name-movie{
+    display: block;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.btn-btn-xem{
+    background-color: rgba(119, 119, 118, 0.5);
+    color: rgb(255, 251, 0);
+    font-weight: 4px;
+    border: 1.8px solid yellow;
+    
+}
+.btn-btn-xem:hover{
+    background: rgb(255, 184, 30);
+    color: aliceblue;
+    border: none;
+}

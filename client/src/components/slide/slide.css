@@ -1,0 +1,23 @@
+.slider-size{
+    width: 100%;
+    height: 70%;
+    
+    overflow: hidden;
+}
+.slide-content-position{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 10;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    
+    
+}
+.logo-slide{
+    font-family: 'Syne Mono', monospace;
+    color: rgb(192, 92, 25);
+    font-size: 50px;
+}
+
